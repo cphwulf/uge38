@@ -1,5 +1,5 @@
 # Opgaver til uge 38 
-### Rækkefølgen 
+### Alle opgaver på nær den første er beskrevet inde i javafilerne. 
 
 1) Hvad er der galt?
 - programmet Oops indeholder fejl der skal rettes for at det kan køre
