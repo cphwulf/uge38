@@ -27,4 +27,5 @@ class ModPrime {
      * 11 is a prime 
 */
   }
+  //TODO: lav metoden isPrime
 }
