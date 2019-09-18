@@ -34,6 +34,7 @@ class DrawBox {
     // TODO: skriv for-loop hvor hver iteration tegner en linje
     // og hvor antallet af loops begrænses af height samt at
     // width indgår i formateringen af printf.
+    // a la format = "*%"+width+"s" og så printf(format,args)
     writeChars('*',width);
 
   }
