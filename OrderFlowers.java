@@ -17,8 +17,9 @@ class OrderFlowers {
      * Alle variabler samles i én streng-variabel der returneres til main hvor hvert svar
      * er adskilt af en såkaldt delimiter - i dette tilfælde et semikolon
      
-     * TESTKØRSEL: en mulig returstreng: 
+     * TESTKØRSEL: hvor den første er med Ja til levering
      * roser,tulipaner;Ja til grønt;345;Otto Verner;Gyden 12;4500 Odense
+     * roser,tulipaner;Nej til grønt;150;
      *
 
 */
