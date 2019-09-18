@@ -29,25 +29,7 @@ class OrderFlowers {
     String flowerOrderAdress = "";
 
     System.out.println("Hvilke blomster skal indgå? Adskil med komma - feks roser,tulipaner");
-    String flowers = myScan.nextLine();
-    System.out.println("Skal der grønt med?(Ja/Nej)");
-    String green = myScan.nextLine();
-    green += " til grønt";
-    System.out.println("Hvad må den koste?");
-    int price = myScan.nextInt();
-    System.out.println("Skal den leveres?(Ja/Nej)");
-    myScan.nextLine();
-    String deliver = myScan.nextLine();
-    if (deliver.equals("Ja")) {
-      System.out.println("Navn");
-      String name = myScan.nextLine();
-      System.out.println("Indtast vej navn og nr:");
-      String street  = myScan.nextLine();
-      System.out.println("Indtast postnr og by:");
-      String postal  = myScan.nextLine();
-      flowerOrderAdress = String.format("%s;%s;%s", name,street,postal);
-    }
-    flowerOrder = String.format("%s;%s;%d;",flowers,green,price);
+    // TODO: resten af brugerdialogen
     flowerOrder += flowerOrderAdress;
     return flowerOrder;
   }
