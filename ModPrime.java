@@ -19,13 +19,17 @@ class ModPrime {
      * 1 og mindre end tallet selv.
      *
      * Løs opgaven med Scanner-input så input bliver dynamisk.
-     *
-     * TESTKØRSEL: 
-     * for tallet 45 skal der returneres:
-     * 45 not a prime because divisor 15
-     * for tallet 11
-     * 11 is a prime 
+
 */
   }
-  //TODO: lav metoden isPrime
+  public static String isPrime(int input) {
+    //
+    String isPrime = " is a prime";
+    for (int i = 2;i<input;i++) {
+      if (input%i==0) {
+        isPrime = " not a prime because divisor " + i;
+      }
+    } 
+    return isPrime;
+  }
 }

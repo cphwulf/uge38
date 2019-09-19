@@ -34,13 +34,18 @@ class DrawBox {
     // TODO: skriv for-loop hvor hver iteration tegner en linje
     // og hvor antallet af loops begrænses af height samt at
     // width indgår i formateringen af printf.
-    // a la format = "*%"+width+"s" og så printf(format,args)
+    for (int i = 2; i< height;i++) {
+      format = "*%"+(width - 2)+"s*%n"; 
+      System.out.printf(format,myEmpty);
+    }
     writeChars('*',width);
 
   }
   public static void writeChars(char myChar, int frequency) {
-    //TODO: skriv for-loopet der printer myChar det antal gange
-    // der er med som anden parameter i metodekaldet
+    //TODO: skriv for-loopet der printer myChar 
+    for(int i=1;i<=frequency;i++) {
+      System.out.print(myChar);
+    }
     System.out.println();
   }
 }
